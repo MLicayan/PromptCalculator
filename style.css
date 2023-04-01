@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background: -webkit-linear-gradient(left, #035efc, #03b1fc);
+}
+
+h1{
+    background-color: white;
+    border-radius: 50%;
+    width: 300px;
+    margin-left: 38%;
+    padding: 20px 20px 20px 20px;
+    opacity: 90%;
+}
+
+.container {
+    position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    width: 300px;
+}
+
+input[type=button] {
+    width: 290px;
+	height: 90px;
+	float: left;
+	padding: 0;
+	margin: 5px;
+	box-sizing: border-box;
+	background: #ecedef;
+	border: none;
+	font-size: 30px;
+	line-height: 30px;
+	border-radius: 50%;
+	font-weight: 700;
+	color: #00ffa6;
+    cursor: pointer;
+}
+
